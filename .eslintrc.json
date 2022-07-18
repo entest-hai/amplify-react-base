@@ -23,11 +23,12 @@
     "rules": {
         "quotes":["error", "double"],
         "indent":["error", 2],
-        "no-unused-vars": ["error",
+        "no-unused-vars": ["warn",
             {
                 "argsIgnorePattern": "^_",
                 "varsIgnorePattern": "^_"
             }],
-        "react/display-name": 0
+        "react/display-name": 0,
+        "react/prop-types": "off"
     }
 }

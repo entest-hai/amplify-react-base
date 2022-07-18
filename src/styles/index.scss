@@ -1,0 +1,19 @@
+/* Amplify UI styles */
+@import '@aws-amplify/ui-react/styles.css';
+
+
+.docs-logo-link {
+  color: black;
+}
+
+.docs-logo-link:hover {
+  color: var(--amplify-colors-font-interactive);
+}
+
+.my-color-heading {
+  color: var(--amplify-colors-brand-secondary-80);
+}
+
+.my-color-text {
+  color: var(--amplify-colors-neutral-80)
+}
