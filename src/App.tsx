@@ -8,6 +8,7 @@ import MyNav from "./components/MyNav";
 
 import "./styles/index.scss";
 import MyColor from "./components/MyColor";
+import MySVG from "./components/MySVG";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Responsive></Responsive>
       <MyDark></MyDark>
       <MyColor></MyColor>
+      <MySVG></MySVG>
     </div>
   );
 }
